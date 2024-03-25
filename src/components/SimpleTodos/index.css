@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.main-Container {
+  background-color: burlywood;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.todo-Container {
+  background-color: aliceblue;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.main-heading {
+  color: coral;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 200;
+  font-size: 50px;
+}
+
+.itmes {
+  margin: 10px;
+}
+
+.itrm-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
